@@ -4,10 +4,15 @@ gem 'rails', '3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :development,:testing do
+  gem 'sqlite3'
+  gem 'mysql2'
+ gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'sqlite3'
-
-gem 'mysql2'
+end
+group :production do
+  gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -36,7 +41,6 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
- gem 'ruby-debug19', :require => 'ruby-debug'
 gem "devise"
 
 gem 'therubyracer'
@@ -56,7 +60,6 @@ gem 'refinerycms-i18n',   '~> 2.0.0', :git => 'git://github.com/parndt/refineryc
 #  gem 'refinerycms-inquiries', :git => 'git://github.com/resolve/refinerycms-inquiries.git', :branch => 'rails-3-1'
 #  gem 'refinerycms-search', :git => 'git://github.com/resolve/refinerycms-search.git', :branch => 'rails-3-1'
 #  gem 'refinerycms-page-images', :git => 'git://github.com/resolve/refinerycms-page-images.git', :branch => 'rails-3-1'
-
 # END USER DEFINED
 
 #gems for tr8n support
