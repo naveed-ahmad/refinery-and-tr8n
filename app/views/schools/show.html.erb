@@ -1,0 +1,18 @@
+<p>
+  <b><%= tr 'Name:'</b>
+  <%= @school.name %>
+</p>
+
+<p>
+  <b><%= tr 'Address:'</b>
+  <%= @school.address %>
+</p>
+
+<p>
+  <b><%= tr 'Phone:'</b>
+  <%= @school.phone %>
+</p>
+
+
+<%= link_to tr('Edit'), edit_school_path(@school) %> |
+<%= link_to tr('Back'), schools_path %>

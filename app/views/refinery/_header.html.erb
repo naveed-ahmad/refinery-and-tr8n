@@ -1,0 +1,11 @@
+<h1 id='logo'>
+  <%= link_to tr(Refinery::Core.site_name), refinery.root_path %>
+  | <%= link_to tr("Schools"), '/schools' %>
+
+  <%= render :partial => "shared/flashes"%>
+
+</h1>
+<%= render(:partial => "/refinery/menu", :locals => {
+    :dom_id => 'menu',
+    :css => 'menu'
+  }) %>
