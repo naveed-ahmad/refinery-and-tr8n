@@ -4,12 +4,12 @@ gem 'rails', '3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-group :development,:testing do
+group :development,:test do
   gem 'sqlite3'
   gem 'mysql2'
- gem 'ruby-debug19', :require => 'ruby-debug'
-
+ #gem 'ruby-debug19', :require => 'ruby-debug'
 end
+
 group :production do
   gem 'pg'
 end
