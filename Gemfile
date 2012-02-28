@@ -50,6 +50,13 @@ gem 'refinerycms', :git => 'git://github.com/resolve/refinerycms.git',:ref => "5
 #    gem 'refinerycms-testing', '~> 2.0'
 #  end
 
+#gems for tr8n support
+gem 'kaminari'
+gem 'will_filter', "~> 3.1.2"
+gem 'tr8n', "~> 3.1.1"
+gem 'sass'
+gem 'coffee-script'
+
 # USER DEFINED
 
 # Add i18n support (optional, you can remove this if you really want to but it is advised to keep it).
@@ -62,10 +69,5 @@ gem 'refinerycms-i18n',   '~> 2.0.0', :git => 'git://github.com/parndt/refineryc
 #  gem 'refinerycms-page-images', :git => 'git://github.com/resolve/refinerycms-page-images.git', :branch => 'rails-3-1'
 # END USER DEFINED
 
-#gems for tr8n support
-gem 'kaminari'
-gem 'will_filter', "~> 3.1.2"
-gem 'tr8n', "~> 3.1.1"
-gem 'sass'
-gem 'coffee-script'
+
 
