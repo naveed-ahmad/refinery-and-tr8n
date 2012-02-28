@@ -7,7 +7,7 @@ gem 'rails', '3.2.0'
 group :development,:test do
   gem 'sqlite3'
   gem 'mysql2'
- #gem 'ruby-debug19', :require => 'ruby-debug'
+ gem 'ruby-debug19'#, :require => 'ruby-debug'
 end
 
 group :production do
