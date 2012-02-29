@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/parndt/refinerycms-i18n.git
-  revision: 79b90b327bbe560c375dc80cf1a01044a8a1bbe3
-  specs:
-    refinerycms-i18n (2.0.0)
-      refinerycms-core (~> 2.0.0)
-      routing-filter (>= 0.2.3)
-
-GIT
   remote: git://github.com/resolve/refinerycms.git
   revision: 51e96c436a3230a09e51524ae597c7bbe8d88190
   ref: 51e96c436a3230a09e51524ae597c7bbe8d88190
@@ -119,8 +111,8 @@ GEM
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.3)
-    jquery-rails (2.0.0)
-      railties (>= 3.2.0.beta, < 5.0)
+    jquery-rails (2.0.1)
+      railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
     json (1.6.5)
     kaminari (0.13.0)
@@ -167,8 +159,6 @@ GEM
     rake (0.9.2.2)
     rdoc (3.12)
       json (~> 1.4)
-    routing-filter (0.3.0)
-      actionpack
     ruby-debug-base19 (0.11.25)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
@@ -231,7 +221,6 @@ DEPENDENCIES
   pg
   rails (= 3.2.0)
   refinerycms!
-  refinerycms-i18n (~> 2.0.0)!
   ruby-debug19
   sass
   sass-rails (~> 3.2.3)
